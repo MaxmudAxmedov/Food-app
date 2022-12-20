@@ -47,6 +47,7 @@ html {
     margin: 0;
     padding: 0;
     background-color: #252836;
+    overflow: hidden;
   }
   
   img {
@@ -64,4 +65,7 @@ html {
     padding: 0 20px;
   }
 
+  .wrapper{
+    display: flex;
+  }
 
