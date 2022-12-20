@@ -16,6 +16,9 @@ export default function Main() {
                 <Card item={'item'} content={'item-content'} img={'item-img'} title={'item-title'} infoText={'20 Bowls available'}/>
                 <Card item={'item'} content={'item-content'} img={'item-img'} title={'item-title'} infoText={'20 Bowls available'}/>
                 <Card item={'item'} content={'item-content'} img={'item-img'} title={'item-title'} infoText={'20 Bowls available'}/>
+                <Card item={'item'} content={'item-content'} img={'item-img'} title={'item-title'} infoText={'20 Bowls available'}/>
+                <Card item={'item'} content={'item-content'} img={'item-img'} title={'item-title'} infoText={'20 Bowls available'}/>
+                <Card item={'item'} content={'item-content'} img={'item-img'} title={'item-title'} infoText={'20 Bowls available'}/>
             </ul>
         </div>
     </main>
