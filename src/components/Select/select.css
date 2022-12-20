@@ -1,0 +1,13 @@
+.own__select{
+  width: 100px;
+  padding: 15px;
+  border: none;
+  background: #1F1D2B;
+border: 1px solid #393C49;
+border-radius: 8px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+color: #FFFFFF;
+}

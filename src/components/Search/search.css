@@ -1,0 +1,32 @@
+.wrap__search{
+  width: 220px;
+  position: relative;
+}
+
+.wrap__search::before{
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url(../../assets/images/img/lupa.svg);
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.search__input{
+  width: 100%;
+  width: 220px;
+  padding: 14px 14px 14px 42px;
+  color: white;
+  background-color: #2D303E;
+border: 1px solid #393C49;
+border-radius: 8px;
+}
+
+.search__input::placeholder{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #ABBBC2;
+}
