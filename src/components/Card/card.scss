@@ -1,0 +1,55 @@
+.item{
+    width: 192px;
+    padding: 24px;
+    padding-top: 118px;
+    position: relative;
+    background-color: #1F1D2B;
+    border-radius: 16px;
+    margin-top: 58px;
+}
+
+.item-img{
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: imgRotate infinite ease-in-out 10s;
+}
+
+@keyframes imgRotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.item-title{
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.item-price{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.item-info{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #ABBBC2;
+}
