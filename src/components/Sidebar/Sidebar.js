@@ -7,7 +7,7 @@ export default function Sidebar() {
   
     <nav className="cite-bar">
     <Link to="/"  className="nav__logo">{<Logo/>}</Link>
-    <NavLink to="/" className={({isActive}) => isActive? "active" : "nav__link"}>
+    <NavLink to="/house" className={({isActive}) => isActive? "active" : "nav__link"}>
     <span className="wrap__svg">{<HouseLogo />}</span>
     </NavLink>
     <NavLink to="/undefined" className={({isActive}) => isActive? "active" : "nav__link"}>

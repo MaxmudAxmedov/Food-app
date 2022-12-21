@@ -1,14 +1,22 @@
 import Sidebar from "./components/Sidebar/Sidebar";
-import Main from "./components/Main/Main";
-import Order from "./page/Orders/Order";
+
 import "./assets/style/style.scss";
+
+import { House } from "./components/House/House";
+import { Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="wrapper">
       <Sidebar />
-      <Main />
-      <Order />
+      <div className="container">
+        <Routes>
+          <Route path="/house/*" element={<House/>} />
+        </Routes>
+      
+      </div>
+      
     </div>
   );
 }
