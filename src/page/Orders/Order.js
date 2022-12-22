@@ -3,11 +3,10 @@ import "./order.scss"
 import Product from '../../components/ProductOrder/Product';
 import foodImg from "../../assets/images/img/Image1.png";
 import Icons from '../../assets/images/icon/Icons';
+import {NavLink} from "react-router-dom";
 
 export default function Order() {
-
     const [price, setPrice] = useState(JSON.parse(localStorage.getItem('price')) || 0);
-
     const foodArray = [
         {
           img: foodImg,
@@ -83,12 +82,11 @@ export default function Order() {
         },
     
     ]
-    
+
     function handlePrice(evt){
         const priceCount = evt.target.value * foodArray[0].price;
         setPrice(priceCount);
     }
-
     localStorage.setItem('price', JSON.stringify(price));
 
   return (
@@ -126,7 +124,11 @@ export default function Order() {
                     <p className='pay-text'>Sub total</p>
                     <p className='pay-count'>{price}</p>
                 </span>
-                <button className='order-pay-btn'>Continue to Payment</button>
+                {
+                    price !== 0 ? (
+                        <NavLink className='order-pay-btn' to='payment'>Continue to Payment</NavLink>
+                    ) : <NavLink className='order-pay-btn' to=''>Continue to Payment</NavLink>
+                }
             </div>
         </form>
     </div>
