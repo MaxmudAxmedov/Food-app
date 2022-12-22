@@ -13,6 +13,7 @@ export default function Payment() {
                     <h3 className='form-title'>Payment Method</h3>
                     <div className='payment-cards'>
                         <label>
+                        
                             <input className='form-radio visually-hidden' type='radio' name='pay' value='creditCard'/>
                             <div className='form-card'>
                                 <CreditCard />
