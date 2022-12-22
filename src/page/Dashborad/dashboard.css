@@ -1,0 +1,39 @@
+.header{
+  padding: 24px 0px ;
+  /* padding-bottom: 0px; */
+  border-bottom: 1px solid #393C49;
+  margin-bottom: 24px;
+}
+
+.header__title{
+  margin: 0;
+  font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+color: #FFFFFF;
+margin-bottom: 4px;
+}
+
+.header__text{
+  margin: 0;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #E0E6E9;
+}
+
+.card__list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+margin: 0;
+list-style: none;
+margin-bottom: 24px;
+}
+
+.report{
+  background: #1F1D2B;
+border-radius: 8px;
+}

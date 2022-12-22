@@ -11,7 +11,6 @@ export const House = () => {
       <Routes>
         <Route index element={<Main/>} />
       </Routes>
-      
       <Order/>
     </div>
   )
