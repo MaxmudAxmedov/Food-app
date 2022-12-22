@@ -1,0 +1,104 @@
+.payment{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+}
+
+.payment-content{
+    width: 409px;
+    height: 100vh;
+    position: absolute;
+    padding: 64px 24px 0;
+    background-color: #1F1D2B;
+    right: 0;
+    top: 0;
+}
+.payment-info{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #393C49;
+
+}
+.payment-title{
+    margin: 0;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.payment-text{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ABBBC2;
+}
+
+.payment-form{
+
+}
+.form-title{
+    margin: 24px 0 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.payment-cards{
+    width: 319px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.form-card{
+    width: 101px;
+    height: 64px;
+    border: 1px solid #393C49;
+    background-color: #252836;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.form-radio:checked ~ .form-card{
+    border-color: #ABBBC2;
+}
+.card-name{
+    margin: 0;
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.form-inputs > label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.user-input{
+    width: 357px;
+    height: 48px;
+    background-color: #2D303E;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #E0E6E9;
+}

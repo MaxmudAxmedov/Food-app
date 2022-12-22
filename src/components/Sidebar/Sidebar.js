@@ -4,7 +4,6 @@ import "./sidebar.scss"
 
 export default function Sidebar() {
   return (
-  
     <nav className="cite-bar">
     <Link to="/"  className="nav__logo">{<Logo/>}</Link>
     <NavLink to="/house" className={({isActive}) => isActive? "active" : "nav__link"}>

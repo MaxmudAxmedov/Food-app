@@ -80,7 +80,6 @@ export default function Main() {
     },
 
   ]
-
   return (
     <main>
       <ul className='list'>
