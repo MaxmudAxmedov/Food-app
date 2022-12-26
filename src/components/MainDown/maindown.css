@@ -1,0 +1,52 @@
+.main__item{
+  display: flex;
+  align-items: flex-start;
+ padding: 10px 0;
+  margin-bottom: 6px;
+}
+
+.costum{
+  width: 135px;
+  display: flex;
+  align-items: center;
+  margin-right: 67px;
+}
+
+.costum__title{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #E0E6E9;
+margin-left: 16px;
+}
+
+.main__menu{
+  width: 137px;
+  margin-right: 58px;
+}
+
+.mainmenu__text{
+  margin: 0;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #E0E6E9;
+}
+
+.main__count{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #E0E6E9;
+margin-right: 130px;
+}
+
+.mini__btn{
+  width: 100px;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 30px;
+}

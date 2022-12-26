@@ -36,4 +36,14 @@ margin-bottom: 24px;
 .report{
   background: #1F1D2B;
 border-radius: 8px;
+/* background: #ffb57233; */
+}
+
+.report__list{
+  width: 100vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 16px 24px;
+  overflow-y: scroll;
 }

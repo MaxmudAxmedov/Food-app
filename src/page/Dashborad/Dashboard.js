@@ -2,6 +2,11 @@ import { Book, Content, Dollar, Down, Top } from "../../assets/images/icon/Icons
 import { MainDown } from "../../components/MainDown/MainDown"
 import { MainTop } from "../../components/MainTop/MainTop"
 import { MiniCard } from "../../components/MiniCard/MiniCard"
+import Eren from "../../assets/images/img/Eren.svg"
+import Reiner from "../../assets/images/img/Reiner.svg"
+import Levi from "../../assets/images/img/Levi.svg"
+import Historia from "../../assets/images/img/Historia.svg"
+import Hamji from "../../assets/images/img/Hanji.svg"
 import "./dashboard.css"
 
 export const Dashboard = () => {
@@ -11,6 +16,7 @@ export const Dashboard = () => {
           <h1 className="header__title">
           Dashboard
           </h1>
+          
           <p className="header__text">Tuesday 2 Feb, 2021</p>
       </header>
       <ul className="card__list">
@@ -21,8 +27,17 @@ export const Dashboard = () => {
       </ul>
       <div className="report">
         <MainTop/>
-        <MainDown img={Book}/>
         <ul className="report__list">
+        <MainDown img={Eren} title="Eren Jaegar" text="Spicy seasoned seafood noodles" count="$125" 
+        btnText="Completed" bgColor={{color:"#50D1AA", backgroundColor:"#6be2be3d"}} />
+        <MainDown img={Reiner} title="Reiner Braunn" text="Salted Pasta with mushroom sauce" count="$145" 
+        btnText="Preparing" bgColor={{color:"#9290FE", backgroundColor:"#9290fe33"}} />
+        <MainDown img={Levi} title="Levi Ackerman" text="Beef dumpling in hot and sour soup" count="$105" 
+        btnText="Pending" bgColor={{color:"#FFB572", backgroundColor:"#ffb57233"}} />
+        <MainDown img={Historia} title="Historia Reiss" text="Hot spicy fried rice with omelet" count="$450" 
+        btnText="Completed" bgColor={{color:"#50D1AA", backgroundColor:"#6be2be3d"}} />
+        <MainDown img={Hamji} title="Hanji Zoe" text="Hot spicy fried rice with omelet" count="$245" 
+        btnText="Completed" bgColor={{color:"#50D1AA", backgroundColor:"#6be2be3d"}} />
 
         </ul>
       </div>
