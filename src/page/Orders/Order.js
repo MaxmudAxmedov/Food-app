@@ -126,7 +126,7 @@ export default function Order() {
                 </span>
                 {
                     price !== 0 ? (
-                        <NavLink className='order-pay-btn' to='payment'>Continue to Payment</NavLink>
+                        <NavLink className='order-pay-btn' to='payment/'>Continue to Payment</NavLink>
                     ) : <NavLink className='order-pay-btn' to=''>Continue to Payment</NavLink>
                 }
             </div>
