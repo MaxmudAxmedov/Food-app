@@ -1,7 +1,9 @@
 import React from "react";
 import './payment.scss';
 import {Cash, CreditCard, Paypal} from "../../assets/images/icon/Icons";
+import { useNavigate } from 'react-router-dom';
 export default function Payment() {
+    const navigate = useNavigate();
     return(
         <div className='payment'>
             <div className='payment-content'>
@@ -13,7 +15,6 @@ export default function Payment() {
                     <h3 className='form-title'>Payment Method</h3>
                     <div className='payment-cards'>
                         <label>
-                        
                             <input className='form-radio visually-hidden' type='radio' name='pay' value='creditCard'/>
                             <div className='form-card'>
                                 <CreditCard />
@@ -43,6 +44,10 @@ export default function Payment() {
                         <div className='form-inputs-box'>
 
                         </div>
+                    </div>
+                    <div className='btn-group'>
+                        <button className='form-btn btn-close' onClick={() => navigate(-1)}>Cancel</button>
+                        <button className='form-btn btn-payment'>Confirm Payment</button>
                     </div>
                 </form>
             </div>
