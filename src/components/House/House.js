@@ -13,7 +13,7 @@ export const House = () => {
         <Route index element={<Main/>} />
         {/* <Route path="/cold" element={<h3>Mansur</h3>} /> */}
       </Routes>
-      <Order/>
+      {/* <Order/> */}
       <PageRoute />
 
     </div>

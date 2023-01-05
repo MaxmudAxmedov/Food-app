@@ -1,4 +1,6 @@
 import { NavLink, Route, Routes } from 'react-router-dom'
+import { Colddish } from '../Colddish/Colddish'
+import { Hotdish } from '../HotDish/Hotdish'
 import  './products.css'
 
 export const Products = () => {
@@ -16,37 +18,37 @@ export const Products = () => {
        <ul className="nav__list">
         <li className="nav__item">
         <NavLink className={({isActive}) => 
-        isActive ? "nav__active" : "nav__Link"} to="order-hot" end>
+        isActive ? "nav__active" : "nav__Link"} to="/settings/products" end >
           Hot Dishes
         </NavLink>
         </li>
         <li className="nav__item">
         <NavLink className={({isActive}) => 
-        isActive ? "nav__active" : "nav__Link"} to={"order-cold"}>
+        isActive ? "nav__active" : "nav__Link"} to={"cold"} >
           Cold Dishes
         </NavLink>
         </li>
         <li className="nav__item">
         <NavLink className={({isActive}) => 
-        isActive ? "nav__active" : "nav__Link"} to="order-soup">
+        isActive ? "nav__active" : "nav__Link"} to="soup">
           Soup
         </NavLink>
         </li>
         <li className="nav__item">
         <NavLink className={({isActive}) => 
-        isActive ? "nav__active" : "nav__Link"} to="order-grill">
+        isActive ? "nav__active" : "nav__Link"} to="grill">
           Grill
         </NavLink>
         </li>
         <li className="nav__item">
         <NavLink className={({isActive}) => 
-        isActive ? "nav__active" : "nav__Link"} to="order-appetizer">
+        isActive ? "nav__active" : "nav__Link"} to="appetizer">
           Appetizer
         </NavLink>
         </li>
         <li className="nav__item">
         <NavLink className={({isActive}) => 
-        isActive ? "nav__active" : "nav__Link"} to="Dessert">
+        isActive ? "nav__active" : "nav__Link"} to="dessert">
           Dessert
         </NavLink>
         </li>
@@ -54,7 +56,8 @@ export const Products = () => {
 
       </nav>
        <Routes>
-        <Route path='order-hot' element={<h2>Hot</h2>} />
+        <Route path='/' element={<Hotdish />} />
+        <Route path='cold' element={<Colddish />} />
        </Routes>
     </div>
   )
