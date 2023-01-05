@@ -7,8 +7,8 @@ export default function PageRoute() {
     return <>
         <Main />
         <Routes>
-            <Route path='/' element={<Order />}></Route>
-            <Route path='/payment' element={<Payment />}></Route>
+            <Route index element={<Order />}></Route>
+            <Route path='payment' element={<Payment />}></Route>
         </Routes>
     </>
 }

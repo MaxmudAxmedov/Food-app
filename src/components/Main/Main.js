@@ -88,7 +88,6 @@ export default function Main() {
           return <Card key={index} img={item.img} title={item.title} price={item.price} info={item.info}/>
         })
       }
-          
       </ul>
     </main>
   )

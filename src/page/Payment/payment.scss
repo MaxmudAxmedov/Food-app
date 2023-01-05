@@ -89,6 +89,12 @@
     margin-bottom: 8px;
 }
 
+.btn-group{
+    width: 358px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .user-input{
     width: 357px;
     height: 48px;
@@ -101,4 +107,55 @@
     font-size: 14px;
     line-height: 140%;
     color: #E0E6E9;
+}
+
+.form-inputs-box{
+    width: 357px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+
+.form-labels{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.label-input{
+    width: 172px;
+    padding: 14px;
+    background-color: #2D303E;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #E0E6E9;
+}
+
+.btn-group{
+    margin-top: 10px;
+}
+.form-btn{
+    display: inline-block;
+    padding: 14px;
+    width: 175px;
+    border: 1px solid #EA7C69;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    line-height: 140%;
+    color: #EA7C69;
+}
+
+.btn-payment{
+    background-color: #EA7C69;
+    color: #FAFAFA;
 }
