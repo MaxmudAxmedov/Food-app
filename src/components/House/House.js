@@ -12,6 +12,9 @@ export const House = () => {
         <Route path="/"   element={<Main/>} />
         <Route path="/dashboard" element={<Ordered />}></Route>
       </Routes>
+
+      {/* <Order/> */}
+
       <PageRoute />
       
     </div>

@@ -1,0 +1,16 @@
+.pro__wrap{
+  display: flex;
+}
+
+.pro-header{
+  padding: 24px 0;
+}
+
+.pro__title{
+  margin: 0;
+  font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+color: #FFFFFF;
+}
