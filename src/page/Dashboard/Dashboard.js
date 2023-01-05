@@ -8,6 +8,7 @@ import Levi from "../../assets/images/img/Levi.svg"
 import Historia from "../../assets/images/img/Historia.svg"
 import Hamji from "../../assets/images/img/Hanji.svg"
 import "./dashboard.css"
+import Ordered from "../Ordered/Ordered"
 
 export const Dashboard = () => {
   return (
@@ -41,6 +42,8 @@ export const Dashboard = () => {
 
         </ul>
       </div>
+
+      <Ordered />
     </>
   )
 }
